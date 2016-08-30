@@ -1,7 +1,5 @@
-# @kickoff/kickoff-welcome.js
+# kickoff-welcome.js
 > A JS console welcome message for the Kickoff framework
-
-
 
 ## The content below is printed to the javascript console
 ```
