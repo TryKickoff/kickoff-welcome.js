@@ -5,9 +5,9 @@
  * @author Zander Martineau
  */
 const colors = {
-	'dark': 'font-weight: bold; color: #181830;',
-	'orange': 'font-weight: bold; color: #FE7C08;',
-	'link': 'font-weight: bold; color: #6699CC;',
+	'dark': 'color: #181830;',
+	'orange': 'color: #FE7C08;',
+	'link': 'color: #6699CC;',
 };
 
 module.exports = console.log(`
@@ -38,4 +38,4 @@ module.exports = console.log(`
    colors.orange,
    colors.dark,
    colors.link
-   );
+);
