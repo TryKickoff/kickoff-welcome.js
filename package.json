@@ -1,0 +1,22 @@
+{
+  "name": "@kickoff/kickoff-welcome.js",
+  "version": "1.0.0",
+  "description": "A JS console welcome message for the Kickoff framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TryKickoff/kickoff-welcome.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TryKickoff/kickoff-welcome.js/issues"
+  },
+  "keywords": [
+    "kickoff",
+    "⚽"
+  ],
+  "author": "Zander Martineau",
+  "license": "MIT"
+}
