@@ -1,5 +1,5 @@
 {
-  "name": "@kickoff/kickoff-welcome.js",
+  "name": "kickoff-welcome.js",
   "version": "1.0.0",
   "description": "A JS console welcome message for the Kickoff framework",
   "main": "index.js",

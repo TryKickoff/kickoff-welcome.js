@@ -22,5 +22,5 @@
 ## Install
 
 ```sh
-npm install -S @kickoff/kickoff-welcome.js
+npm install -S kickoff-welcome.js
 ```
