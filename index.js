@@ -3,6 +3,7 @@
  * @module Kickoff
  * @description A JS console welcome message for the Kickoff framework
  * @author Zander Martineau
+ * https://github.com/TryKickoff/kickoff-welcome.js
  */
 const colors = {
 	'dark': 'color: #181830;',
