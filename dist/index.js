@@ -8,9 +8,9 @@
  * https://github.com/TryKickoff/kickoff-welcome.js
  */
 var colors = {
-  'dark': 'color: #181830;',
-  'orange': 'color: #FE7C08;',
-  'link': 'color: #6699CC;'
+	'orange': 'background-color:#FE7C08;color:#6d3300;padding:5px;line-height:20px;',
+	'dark': 'background-color:#181830;color:#fff;padding:5px;line-height:20px;',
+	'reset': 'background-color:transparent;'
 };
 
-module.exports = console.log('\n\n   %c\u2588\u2588\u2557  \u2588\u2588\u2557\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2557\u2588\u2588\u2557  \u2588\u2588\u2557 %c\u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557\n   %c\u2588\u2588\u2551 \u2588\u2588\u2554\u255D\u2588\u2588\u2551\u2588\u2588\u2554\u2550\u2550\u2550\u2550\u255D\u2588\u2588\u2551 \u2588\u2588\u2554\u255D%c\u2588\u2588\u2554\u2550\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2554\u2550\u2550\u2550\u2550\u255D\u2588\u2588\u2554\u2550\u2550\u2550\u2550\u255D\n   %c\u2588\u2588\u2588\u2588\u2588\u2554\u255D \u2588\u2588\u2551\u2588\u2588\u2551     \u2588\u2588\u2588\u2588\u2588\u2554\u255D %c\u2588\u2588\u2551   \u2588\u2588\u2551\u2588\u2588\u2588\u2588\u2588\u2557  \u2588\u2588\u2588\u2588\u2588\u2557\n   %c\u2588\u2588\u2554\u2550\u2588\u2588\u2557 \u2588\u2588\u2551\u2588\u2588\u2551     \u2588\u2588\u2554\u2550\u2588\u2588\u2557 %c\u2588\u2588\u2551   \u2588\u2588\u2551\u2588\u2588\u2554\u2550\u2550\u255D  \u2588\u2588\u2554\u2550\u2550\u255D\n   %c\u2588\u2588\u2551  \u2588\u2588\u2557\u2588\u2588\u2551\u255A\u2588\u2588\u2588\u2588\u2588\u2588\u2557\u2588\u2588\u2551  \u2588\u2588\u2557%c\u255A\u2588\u2588\u2588\u2588\u2588\u2588\u2554\u255D\u2588\u2588\u2551     \u2588\u2588\u2551\n   %c\u255A\u2550\u255D  \u255A\u2550\u255D\u255A\u2550\u255D \u255A\u2550\u2550\u2550\u2550\u2550\u255D\u255A\u2550\u255D  \u255A\u2550\u255D %c\u255A\u2550\u2550\u2550\u2550\u2550\u255D \u255A\u2550\u255D     \u255A\u2550\u255D\n\n   %cThis site was built with the Kickoff framework\n\n   For more information & documentation go to %chttp://trykickoff.com\n\n   ', colors.dark, colors.orange, colors.dark, colors.orange, colors.dark, colors.orange, colors.dark, colors.orange, colors.dark, colors.orange, colors.dark, colors.orange, colors.dark, colors.link);
+module.exports = console.log('\n%c \u276F %c KICKOFF - http://trykickoff.com %c \u276F %c\n\n', colors.orange, colors.dark, colors.orange, colors.reset);
