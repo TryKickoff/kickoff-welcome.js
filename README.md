@@ -4,16 +4,7 @@
 ## The content below is printed to the javascript console
 ```
 
-   ██╗  ██╗██╗ ██████╗██╗  ██╗ ██████╗ ███████╗███████╗
-   ██║ ██╔╝██║██╔════╝██║ ██╔╝██╔═══██╗██╔════╝██╔════╝
-   █████╔╝ ██║██║     █████╔╝ ██║   ██║█████╗  █████╗
-   ██╔═██╗ ██║██║     ██╔═██╗ ██║   ██║██╔══╝  ██╔══╝
-   ██║  ██╗██║╚██████╗██║  ██╗╚██████╔╝██║     ██║
-   ╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝
-
-   This site was built with the Kickoff framework
-
-   For more information & documentation go to http://trykickoff.com
+ ❯  KICKOFF - http://trykickoff.com  ❯
 
 ```
 
@@ -22,3 +13,16 @@
 ```sh
 npm install -S kickoff-welcome.js
 ```
+
+## Usage
+
+```js
+import 'kickoff-welcome.js'; // ES6
+
+// or
+
+require('kickoff-welcome.js'); // CommonJS
+```
+
+---
+Made by [Z&er :zap:](https://github.com/mrmartineau/)
