@@ -6,37 +6,14 @@
  * https://github.com/TryKickoff/kickoff-welcome.js
  */
 const colors = {
-	'dark': 'color: #181830;',
-	'orange': 'color: #FE7C08;',
-	'link': 'color: #6699CC;',
+	'orange': 'background-color:#FE7C08;color:#6d3300;padding:5px;line-height:20px;',
+	'dark': 'background-color:#181830;color:#fff;padding:5px;line-height:20px;',
+	'reset': 'background-color:transparent;',
 };
 
-module.exports = console.log(`
-
-   %c██╗  ██╗██╗ ██████╗██╗  ██╗ %c██████╗ ███████╗███████╗
-   %c██║ ██╔╝██║██╔════╝██║ ██╔╝%c██╔═══██╗██╔════╝██╔════╝
-   %c█████╔╝ ██║██║     █████╔╝ %c██║   ██║█████╗  █████╗
-   %c██╔═██╗ ██║██║     ██╔═██╗ %c██║   ██║██╔══╝  ██╔══╝
-   %c██║  ██╗██║╚██████╗██║  ██╗%c╚██████╔╝██║     ██║
-   %c╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝ %c╚═════╝ ╚═╝     ╚═╝
-
-   %cThis site was built with the Kickoff framework
-
-   For more information & documentation go to %chttp://trykickoff.com
-
-   `,
-   colors.dark,
-   colors.orange,
-   colors.dark,
-   colors.orange,
-   colors.dark,
-   colors.orange,
-   colors.dark,
-   colors.orange,
-   colors.dark,
-   colors.orange,
-   colors.dark,
-   colors.orange,
-   colors.dark,
-   colors.link
+module.exports = console.log(`\n%c \u276F %c KICKOFF - http://trykickoff.com %c \u276F %c\n\n`,
+	colors.orange,
+	colors.dark,
+	colors.orange,
+	colors.reset,
 );
