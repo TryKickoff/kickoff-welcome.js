@@ -13,4 +13,10 @@ var colors = {
 	'reset': 'background-color:transparent;'
 };
 
-module.exports = console.log('\n%c \u276F %c KICKOFF - http://trykickoff.com %c \u276F %c\n\n', colors.orange, colors.dark, colors.orange, colors.reset);
+var isIE = !!window.ActiveXObject;
+
+if (isIE) {
+	console.log('\n \u276F KICKOFF - http://trykickoff.com \u276F \n\n');
+} else {
+	console.log('\n%c \u276F %c KICKOFF - http://trykickoff.com %c \u276F %c\n\n', colors.orange, colors.dark, colors.orange, colors.reset);
+}
