@@ -1,4 +1,4 @@
-# kickoff-welcome.js
+# @kickoff/welcome.js
 > A JS console welcome message for the Kickoff framework
 
 ## The content below is printed to the javascript console
@@ -11,17 +11,21 @@
 ## Install
 
 ```sh
-npm install -S kickoff-welcome.js
+npm install -S @kickoff/welcome.js
+
+or
+
+yarn add @kickoff/welcome.js
 ```
 
 ## Usage
 
 ```js
-import 'kickoff-welcome.js'; // ES6
+import '@kickoff/welcome.js'; // ES6
 
 // or
 
-require('kickoff-welcome.js'); // CommonJS
+require('@kickoff/welcome.js'); // CommonJS
 ```
 
 ---
